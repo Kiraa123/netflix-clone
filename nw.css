@@ -1,0 +1,223 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #0e484b;
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: relative;
+    background: transparent;
+  }
+  .bgg {
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.7) 100%), url("/netflixxx.jpg");
+    backdrop-filter: blur(5px);
+}
+  
+  .a1{
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+.svg-class{
+    height: 50px;
+    width: 136px;
+    color: rgb(229,9,20);
+    fill: currentColor;
+}
+.row{
+    display: flex;
+}
+.ab{
+    height: 100px;
+}
+.logo{
+    display:flex ;
+
+}
+.inputa{
+    display: flex;
+    justify-content: center;
+}
+.eml-input{
+    height: 50px;
+    width: 400px;
+    font-size: 18px;
+    border-radius: 5px;
+    background: transparent;
+    backdrop-filter: blur(2px);
+
+}
+.eml-button{
+height: 50px;
+background-color: red;
+font-size: 22px;
+margin-left: 5px;
+border-radius: 5px;
+}
+.btn{
+    width: 75%;
+    display: flex !important;
+    justify-content: end;
+}
+.tp-btn{
+    display: flex;
+    justify-content: end;
+}
+#texta{
+    width: 50%;
+}
+
+
+  
+body{
+    background-color: black !important;
+    color: white !important;
+
+}
+.eng{ 
+background-color: rgb(74, 72, 72);
+width: 90px;
+border-radius:3px;
+}
+.btn .sign{
+    width: 110px;
+    height: 40px;
+    font-size: 19px;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    margin-left: 33px;
+    border: 1px solid;
+}
+.main{
+    text-align: center;
+    padding-top:12%;
+     
+} 
+.main h1{
+    font-size: 55px;
+}    
+.pca{
+    height: 500px;
+    width: 400px
+}
+.main h3{
+    font-size: 25px;
+}
+.main p{
+    font-size: 22px;
+}
+.blank{
+    height: 10px;
+    width: 100%;
+    background-color:rgb(153, 150, 150);
+}
+.dropdown a{
+    width:80%;
+    background-color:rgba(234, 216, 216, 0.105);
+    height: 100px;
+    font-size: 120%;
+    margin-left: 10%;
+    display: flex;
+    text-decoration: none;
+    border: 9px solid black;
+    color: rgb(249, 245, 245);   
+    align-content: center; 
+    padding-left:30px;
+}
+
+
+
+.task{
+    text-align: center;
+
+}
+#event{
+    justify-content: center;
+}
+.arrow{
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+    justify-content: space-evenly;
+    width: 20%;
+    align-items: center;
+
+}
+.content{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.input{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 20px;
+}
+
+.collapse{
+    background-color: grey;
+    width: 80%;
+}
+.rowz{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .gas-os{
+    background-color: #0e484b;
+    width:80% !important;
+    border-radius: 5px;
+} */
+
+@media screen and (max-width: 768px) {
+    .main h1 {
+        font-size: 40px;
+    }
+
+    
+    .main h3 {
+        font-size: 24px;
+    }
+    
+    .main p {
+        font-size: 20px;
+    }
+    
+    .btn .sign {
+        width: 80px;
+        /* font-size: 16px; */
+    }
+    
+    .eng {
+        width: 70px;
+    }
+    
+    .eml-input {
+        font-size: 16px;
+        width: 230px;
+    }
+    
+    .eml-button {
+        font-size: 18px;
+        width: 120px;
+    }
+    .bgg{
+        height: 500px;
+    }
+
+}
+    

@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0e484b;
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: relative;
+    background: transparent;
+}
+
+.bgg {
+    background-image: url(/netflixxx.jpg);
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    backdrop-filter: blur;
+    background: radial-gradient(black);
+}
+
+.a1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.svg-class {
+    height: 50px;
+    width: 136px;
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+}
+
+.container-fluid {
+    height: 300px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.eml-input {
+    height: 50px;
+    width: 100%;
+    max-width: 300px;
+    background-color: rgb(28, 26, 26);
+    font-size: 22px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.eml-button {
+    height: 55px;
+    width: 100%;
+    max-width: 300px;
+    background-color: red;
+    font-size: 22px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.tp-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#texta {
+    width: 100%;
+    max-width: 500px;
+}
+
+body {
+    background-color: black !important;
+    color: white !important;
+}
+
+.eng {
+    background-color: rgb(74, 72, 72);
+    width: 90px;
+    border-radius: 3px;
+}
+
+.sign {
+    width: 100%;
+    max-width: 110px;
+    height: 40px;
+    font-size: 19px;
+    color: white;
+    background-color: red;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.main {
+    text-align: center;
+    padding-top: 8%;
+}
+
+.main h1 {
+    font-size: 55px;
+}
+
+.pca {
+    height: auto;
+    max-width: 100%;
+}
+
+.main h3 {
+    font-size: 30px;
+}
+
+.main p {
+    font-size: 27px;
+}
+
+.blank {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(153, 150, 150);
+}
+
+.dropdown a {
+    width: 100%;
+    max-width: 80%;
+    background-color: rgba(234, 216, 216, 0.105);
+    height: 100px;
+    font-size: 120%;
+    margin: 10px;
+    display: flex;
+    text-decoration: none;
+    border: 9px solid black;
+    color: rgb(249, 245, 245);
+    align-items: center;
+    padding-left: 30px;
+}
+
+.task {
+    text-align: center;
+}
+
+#event {
+    justify-content: center;
+}
+
+.arrow {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+    width: 20%;
+    align-items: center;
+}
+
+.content {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+.main h2 {
+    font-size: 80px;
+    align-items: center;
+}
+
+.collapse {
+    background-color: grey;
+    width: 80%;
+}
+
+.rowz {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Add media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .main h1 {
+        font-size: 40px;
+    }
+    
+    .main h2 {
+        font-size: 50px;
+    }
+    
+    .main h3 {
+        font-size: 24px;
+    }
+    
+    .main p {
+        font-size: 20px;
+    }
+    
+    .btn .sign {
+        width: 80px;
+        font-size: 16px;
+    }
+    
+    .eng {
+        width: 70px;
+    }
+    
+    .eml-input {
+        font-size: 16px;
+    }
+    
+    .eml-button {
+        font-size: 18px;
+    }
+    
+    .content {
+        font-size: 16px;
+    }
+    
+    .arrow {
+        font-size: 20px;
+    }
+}
